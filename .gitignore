@@ -1,0 +1,96 @@
+
+# ==========================================
+# ESP-IDF build artifacts
+# ==========================================
+build/
+build_*/
+cmake-build-*/
+
+# ESP-IDF generated configuration
+sdkconfig
+sdkconfig.old
+sdkconfig.old.*
+
+# ESP-IDF Component Manager
+managed_components/
+
+# Keep dependencies.lock tracked for
+# reproducible component versions.
+
+# ==========================================
+# CMake
+# ==========================================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Local CMake presets (keep CMakePresets.json)
+CMakeUserPresets.json
+
+# ==========================================
+# IDE files
+# ==========================================
+
+# CLion / JetBrains
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# ==========================================
+# Python artifacts
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# ==========================================
+# ESP-IDF testing and reports
+# ==========================================
+pytest-embedded/
+pytest_embedded_log/
+TEST_LOGS/
+coverage_report/
+coverage.info
+*.gcda
+*.gcno
+build_summary_*.xml
+app_info_*.txt
+size_info*.txt
+
+# ==========================================
+# OS generated files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Temporary editor files
+# ==========================================
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# ==========================================
+# Local environment / secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+
