@@ -1,0 +1,24 @@
+
+menu "Application Settings"
+
+    config APP_WIFI_SSID
+        string "WiFi SSID"
+        default ""
+
+    config APP_WIFI_PASSWORD
+        string "WiFi Password"
+        default ""
+
+    config APP_USER_ID
+        string "User Id"
+        default ""
+    
+    config MQTT_USER_ID
+        string "MQTT User Id"
+        default ""
+
+    config MQTT_PASSWORD
+        string "MQTT Password"
+        default ""
+
+endmenu
